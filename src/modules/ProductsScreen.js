@@ -27,7 +27,7 @@ const ProductsScreen = () => {
       </View>
       <FlatList
         onLayout={() => {
-          RNBootSplash.hide();
+        //   RNBootSplash.hide();
         }}
         data={Products}
         renderItem={renderItem}
